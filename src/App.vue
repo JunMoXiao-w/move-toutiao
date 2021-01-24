@@ -1,9 +1,15 @@
 <template>
   <div id="app">
-    <h1>我的头条</h1>
+    <div></div>
     <!-- 路由的出口 -->
-    <router-view/>
+    <router-view />
   </div>
 </template>
+
+<script>
+export default {
+  name: 'APP'
+}
+</script>
 
 <style lang="less"></style>
